@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Entities\Demo.Entities.csproj" />
+    <ProjectReference Include="..\Demo.Repos\Demo.Repos.csproj" />
+    <ProjectReference Include="..\Demo.Utilities\Demo.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
